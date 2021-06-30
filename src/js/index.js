@@ -5,8 +5,8 @@ var mymap = L.map('mapid',{
     maxZoom: 4,
     zoomControl: false,
     minZoom: 2,
-    maxBounds: [[144,144],[0,0]]
-}).setView([72, 72], 14);
+    maxBounds: [[288,288],[-144,-144]]
+}).setView([72, 72], 72);
 
 var imageUrl = 'images/almscliffe.jpg',
     imageBounds = [[144,0], [0,144]];
@@ -293,6 +293,9 @@ var boulders = [
             {name: "Exorcist", grade: "F8a", link: ""},
             {name: "The Crucifix Warm Up", grade: "F6a+", link: ""},
             {name: "Crucifix Traverse", grade: "F7a", link: ""},
+            {name: "The Crucifix", grade: "F5", link: ""},
+            {name: "Crucifix Arete", grade: "F6a+", link: ""},
+            {name: "Pebble Wall", grade: "F6c+", link: ""},
         ]
     },
 
