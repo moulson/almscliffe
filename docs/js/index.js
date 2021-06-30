@@ -230,6 +230,22 @@ var boulders = [
         ]
     },
     {
+        id: 15.5,
+        location: [70,18],
+        name: "North Boulder",
+        routes: [
+            {name: "Chipped Slab", grade: "F2", link: ""},
+            {name: "Out of Pocket", grade: "F5", link: ""},
+            {name: "Northern Shuffle", grade: "F7a", link: ""},
+            {name: "Sunny Scoop", grade: "F5", link: ""},
+            {name: "Knee Biter", grade: "F5+", link: ""},
+            {name: "Stubby Arete", grade: "F5", link: ""},
+            {name: "Shadow Face", grade: "F4", link: ""},
+            {name: "Wall of Horrors Traverse", grade: "F6c+", link: ""},
+            {name: "The Horror", grade: "F7a+", link: ""},
+        ]
+    },
+    {
         id: 16,
         location: [76,20],
         name: "Z Climb",
@@ -242,7 +258,7 @@ var boulders = [
         location: [76.3,34.8],
         name: "Great Western",
         routes: [
-            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
+            
         ]
     },
     {
@@ -250,7 +266,12 @@ var boulders = [
         location: [80,46.3],
         name: "Zig Zag Direct",
         routes: [
-            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
+            {name: "Jess's Roof", grade: "F7c", link: ""},
+            {name: "Brown's Roof", grade: "F7a+", link: ""},
+            {name: "The Nose", grade: "F4", link: ""},
+            {name: "The Nose Direct", grade: "F5", link: ""},
+            {name: "Syrett's Roof", grade: "F6c+", link: ""},
+            {name: "Bancroft's Roof", grade: "F6b+", link: ""},
         ]
     },
     {
@@ -258,7 +279,7 @@ var boulders = [
         location: [85.5,54.4],
         name: "The Rift",
         routes: [
-            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
+            {name: "Si's Arete", grade: "F7a+", link: ""},
         ]
     },
     {
@@ -266,7 +287,13 @@ var boulders = [
         location: [79.8,69.5],
         name: "Demon Wall",
         routes: [
-            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
+            {name: "Stu's Roof Left-Hand", grade: "F7b+", link: ""},
+            {name: "Stu's Roof", grade: "F7c+", link: ""},
+            {name: "Demon Wall Roof", grade: "F7a+", link: ""},
+            {name: "Dolphin Belly Slap", grade: "F7a", link: ""},
+            {name: "Exorcist", grade: "F8a", link: ""},
+            {name: "The Crucifix Warm Up", grade: "F6a+", link: ""},
+            {name: "Crucifix Traverse", grade: "F7a", link: ""},
         ]
     },
 
