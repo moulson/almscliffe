@@ -4,11 +4,13 @@
 @import 'partials/media';
 
 body{
+    padding: 0;
+    margin: 0;
 }
 
-#mapid{
-    height: 100vh;
-    width: 100vw;
+html, body, #mapid{
+    height: 100%;
+    width: 100vw
 }
 
 .leaflet-marker-icon{

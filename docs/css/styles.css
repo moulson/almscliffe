@@ -17,18 +17,24 @@ $off-white: rgb(167, 137, 94);
   font-style: normal;
 }
 
-/* line 9, src/sass/styles.scss */
-#mapid {
-  height: 100vh;
+/* line 6, src/sass/styles.scss */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 11, src/sass/styles.scss */
+html, body, #mapid {
+  height: 100%;
   width: 100vw;
 }
 
-/* line 14, src/sass/styles.scss */
+/* line 16, src/sass/styles.scss */
 .leaflet-marker-icon {
   fill: green;
 }
 
-/* line 20, src/sass/styles.scss */
+/* line 22, src/sass/styles.scss */
 .route-list ul li {
   list-style: none;
   font-size: 1rem;
