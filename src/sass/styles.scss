@@ -23,7 +23,12 @@ html, body, #mapid{
             list-style: none;
             font-size: 1rem;
             a{
-
+                .missing{
+                    i.fab{
+                         color: red;
+                    }
+                   
+                }
             }
         }
     }

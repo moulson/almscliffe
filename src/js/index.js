@@ -25,7 +25,17 @@ var boulders = [
         location: [30,34],
         name: "End Boulder",
         routes: [
-            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+            {name: "Finite Field", grade: "F3+", link: ""},
+            {name: "End Wall", grade: "F4", link: ""},
+            {name: "Field Fair", grade: "F5", link: ""},
+            {name: "The High Step", grade: "F5+", link: ""},
+            {name: "Morrell's Wall", grade: "F6a", link: "https://youtu.be/L2DC5NAukUw?t=25"},
+            {name: "Morrell's Wall Left", grade: "F6a", link: ""},
+            {name: "Fall In", grade: "F6a", link: ""},
+            {name: "Swampy Arete", grade: "F6c+", link: ""},
+            {name: "Morrell's Wall Traverse", grade: "F7a", link: ""},
+            {name: "Fieldside Traverse", grade: "F7b", link: ""},
+            {name: "Slopey Traverse", grade: "F7c", link: ""},
         ]
     },
     {
@@ -33,7 +43,7 @@ var boulders = [
         location: [40,26],
         name: "Overhanging Nose",
         routes: [
-            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+            {name: "Slap &amp; Traction", grade: "Font 6a+", link: "https://youtu.be/L2DC5NAukUw?t=70"}
         ]
     },
     {
@@ -186,7 +196,17 @@ var boulders = [
 function getBoulders(boulders){
     var boulderList = "";
     boulders.forEach(boulder => {
-        boulderList = boulderList + `<li>${boulder.grade} - ${boulder.name} <a target="_blank" href="${boulder.link}"><i class="fab fa-youtube"></i></a> </li>`;
+        boulderList = boulderList +
+        `
+        <tr>
+        <td>${boulder.grade}</td>
+        <td>${boulder.name}</td>
+        <td>
+            <a target="_blank"  href="${boulder.link}">
+                ${boulder.link == "" ? "" : '<i class="fab fa-youtube"></i>'}
+            </a> 
+        </td>
+        </tr>`;
     });
     return boulderList;
 }
@@ -195,11 +215,11 @@ boulders.forEach(boulder => {
     L.marker(boulder.location, {icon: boulderIcon}).bindPopup(`
     <h1>${boulder.name}</h1>
     <div class="row route-list">
-        <ul>
+        <table>
         `+
         getBoulders(boulder.routes)
         +`
-        </ul>
+        </table>
     </div>
     `).addTo(mymap);
 });
