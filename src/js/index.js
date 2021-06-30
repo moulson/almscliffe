@@ -3,7 +3,7 @@
 var mymap = L.map('mapid',{
     crs: L.CRS.Simple,
     zoom: 2,
-    maxZoom: 2,
+    maxZoom: 4,
     zoomControl: false,
     minZoom: 2,
     maxBounds: [[144,144],[0,0]]
@@ -20,24 +20,43 @@ var boulderIcon = L.icon({
     popupAnchor: [12,12]
 });
 
-var boulderOne = {
-    location: [30,34],
-    name: "Boulder one",
-    boulders: [
-        {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
-    ]
-}
-
-var boulderEleven = {
-    name: "The Matterhorn",
-    location: [50,50]
-}
-
 var boulders = [
     {
         id: 1,
         location: [30,34],
-        name: "Boulder one",
+        name: "End Boulder",
+        routes: [
+            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+        ]
+    },
+    {
+        id: 2,
+        location: [40,26],
+        name: "Overhanging Nose",
+        routes: [
+            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+        ]
+    },
+    {
+        id: 3,
+        location: [49,36],
+        name: "West Cave Group",
+        routes: [
+            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+        ]
+    },
+    {
+        id: 4,
+        location: [45,46],
+        name: "Everest Man Boulder",
+        routes: [
+            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+        ]
+    },
+    {
+        id: 5,
+        location: [38,49],
+        name: "The Flying Arete",
         routes: [
             {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
         ]
