@@ -2,7 +2,7 @@
 // On install, cache some stuff
 addEventListener('install', (function (event) {
 	event.waitUntil(caches.open('core').then((function (cache) {
-		cache.add(new Request('offline.html'));
+		cache.add(new Request('index.html'));
 		return;
 	})));
 }));
@@ -24,7 +24,7 @@ addEventListener('fetch', (function (event) {
 			fetch(request).then((function (response) {
 				return response;
 			})).catch((function (error) {
-				return caches.match('offline.html');
+				return caches.match('index.html');
 			}))
 		);
 	}
