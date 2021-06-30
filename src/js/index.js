@@ -47,7 +47,7 @@ var boulders = [
         location: [44,91],
         name: "The Matterhorn",
         routes: [
-            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
         ]
     }
 
@@ -56,7 +56,7 @@ var boulders = [
 function getBoulders(boulders){
     var boulderList = "";
     boulders.forEach(boulder => {
-        boulderList = boulderList + `<li>${boulder.grade} - ${boulder.name} <a href="${boulder.link}"><i class="fab fa-youtube"></i></a> </li>`;
+        boulderList = boulderList + `<li>${boulder.grade} - ${boulder.name} <a target="_blank" href="${boulder.link}"><i class="fab fa-youtube"></i></a> </li>`;
     });
     return boulderList;
 }
