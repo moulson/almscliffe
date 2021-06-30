@@ -1,0 +1,28 @@
+@import 'partials/colours';
+@import 'partials/sizings';
+@import 'partials/fonts';
+@import 'partials/media';
+
+body{
+}
+
+#mapid{
+    height: 100vh;
+    width: 100vw;
+}
+
+.leaflet-marker-icon{
+    fill: green;
+}
+
+.route-list{
+    ul{
+        li{
+            list-style: none;
+            font-size: 1rem;
+            a{
+
+            }
+        }
+    }
+}

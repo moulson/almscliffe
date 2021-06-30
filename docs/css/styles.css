@@ -1,0 +1,35 @@
+/*! danmoulson.com v1.0.0 | (c) 2021  | ISC License | git+https://github.com/moulson/portfolio.git */
+/* blues
+$primary: rgb(0, 42, 71);
+$secondary: rgb(0, 155, 205);
+$dark: #00171F;
+$off-white: rgb(167, 137, 94);
+*/
+@font-face {
+  font-family: "Venti Extra Bold";
+  src: url("/fonts/VentiCF-ExtraBold.woff2");
+}
+
+@font-face {
+  font-family: 'futuramedium';
+  src: url("/fonts/futura_medium_bt-webfont.woff2") format("woff2"), url("/fonts/futura_medium_bt-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, src/sass/styles.scss */
+#mapid {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* line 14, src/sass/styles.scss */
+.leaflet-marker-icon {
+  fill: green;
+}
+
+/* line 20, src/sass/styles.scss */
+.route-list ul li {
+  list-style: none;
+  font-size: 1rem;
+}
