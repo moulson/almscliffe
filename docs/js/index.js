@@ -1,6 +1,6 @@
 /*! danmoulson.com v1.0.0 | (c) 2021  | ISC License | git+https://github.com/moulson/portfolio.git */
 /*jshint esversion: 6 */
-navigator.serviceWorker.register('service-worker.js');
+
 var mymap = L.map('mapid',{
     crs: L.CRS.Simple,
     zoom: 2,
