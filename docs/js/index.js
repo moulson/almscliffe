@@ -67,9 +67,9 @@ var boulders = [
             {name: "Three Swings Traverse", grade: "F5+", link: ""},
             {name: "The Chimney Flake", grade: "F5", link: ""},
             {name: "The Postman", grade: "F4", link: ""},
-            {name: "Hanging Rib", grade: "F6a", link: ""},
+            {name: "Hanging Rib", grade: "F6a", link: "https://youtu.be/L2DC5NAukUw?t=189"},
             {name: "Rib Right", grade: "F5+", link: ""},
-            {name: "Pork Chop Slab", grade: "F5+", link: ""},
+            {name: "Pork Chop Slab", grade: "F5+", link: "https://youtu.be/L2DC5NAukUw?t=141"},
         ]
     },
     {
@@ -90,7 +90,7 @@ var boulders = [
         location: [38,49],
         name: "The Flying Arete",
         routes: [
-            {name: "Flying Arete", grade: "F6b", link: ""},
+            {name: "Flying Arete", grade: "F6b", link: "https://youtu.be/L2DC5NAukUw?t=229"},
             {name: "The Right Wing", grade: "F6b", link: ""},
         ]
     },
@@ -106,6 +106,7 @@ var boulders = [
             {name: "The Gypsy", grade: "F6b+", link: ""},
             {name: "Gypus", grade: "F6c+", link: ""},
             {name: "Central Route", grade: "F4", link: ""},
+            {name: "Central Route Direct", grade: "F5+", link: "https://youtu.be/L2DC5NAukUw?t=290"},
             {name: "North Top Corner", grade: "F4", link: ""},
             {name: "The Scoop", grade: "F5+", link: ""},
             {name: "The Full Virgin Traverse", grade: "F8a", link: ""},
@@ -119,9 +120,10 @@ var boulders = [
         location: [59,61.5],
         name: "The Big Roof",
         routes: [
-            {name: "Snappy Roof", grade: "F5+", link: ""},
+            {name: "Snappy Roof", grade: "F5+", link: "https://youtu.be/L2DC5NAukUw?t=354"},
             {name: "Underhand", grade: "F7b+", link: ""},
             {name: "Off Campus", grade: "F5", link: ""},
+            {name: "Reachy Roof", grade: "F5+", link: "https://youtu.be/L2DC5NAukUw?t=386"}
         ]
     },
     {
