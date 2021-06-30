@@ -1,5 +1,5 @@
 /*jshint esversion: 6 */
-navigator.serviceWorker.register('js/sw.js');
+navigator.serviceWorker.register('service-worker.js');
 var mymap = L.map('mapid',{
     crs: L.CRS.Simple,
     zoom: 2,
