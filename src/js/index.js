@@ -25,6 +25,9 @@ var boulders = [
         location: [30,34],
         name: "End Boulder",
         routes: [
+            {name: "Bungle Traverse", grade: "F3", link: ""},
+            {name: "Jemima", grade: "F3", link: ""},
+            {name: "Hamble's Arete", grade: "F3+", link: ""},
             {name: "Finite Field", grade: "F3+", link: ""},
             {name: "End Wall", grade: "F4", link: ""},
             {name: "Field Fair", grade: "F5", link: ""},
@@ -43,7 +46,12 @@ var boulders = [
         location: [40,26],
         name: "Overhanging Nose",
         routes: [
-            {name: "Slap &amp; Traction", grade: "Font 6a+", link: "https://youtu.be/L2DC5NAukUw?t=70"}
+            {name: "Slap &amp; Traction", grade: "F6a+", link: "https://youtu.be/L2DC5NAukUw?t=70"},
+            {name: "Overhanging Nose", grade: "F6a", link: ""},
+            {name: "Grape Strain", grade: "F7b+", link: ""},
+            {name: "Tumbledown", grade: "F5", link: ""},
+            {name: "Lasting Satisfaction", grade: "F7c+", link: ""},
+            {name: "I Am A Walrus", grade: "F6c+", link: ""},
         ]
     },
     {
@@ -51,7 +59,16 @@ var boulders = [
         location: [49,36],
         name: "West Cave Group",
         routes: [
-            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+            {name: "Left Rib", grade: "F5", link: ""},
+            {name: "Barley Mow", grade: "F7a", link: ""},
+            {name: "Hammill's Rib", grade: "F7a", link: ""},
+            {name: "West Cave Wall", grade: "F3", link: ""},
+            {name: "Three Swings Traverse", grade: "F5+", link: ""},
+            {name: "The Chimney Flake", grade: "F5", link: ""},
+            {name: "The Postman", grade: "F4", link: ""},
+            {name: "Hanging Rib", grade: "F6a", link: ""},
+            {name: "Rib Right", grade: "F5+", link: ""},
+            {name: "Pork Chop Slab", grade: "F5+", link: ""},
         ]
     },
     {
@@ -59,7 +76,12 @@ var boulders = [
         location: [45,46],
         name: "Everest Man Boulder",
         routes: [
-            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+            {name: "The North Ridge", grade: "F5+", link: ""},
+            {name: "The Hillary Step", grade: "F5", link: ""},
+            {name: "The Lhotse Face", grade: "F4", link: ""},
+            {name: "The South-West Face", grade: "F6a", link: ""},
+            {name: "The South Col", grade: "F3+", link: ""},
+            {name: "The East Face", grade: "F4", link: ""},
         ]
     },
     {
@@ -215,7 +237,7 @@ boulders.forEach(boulder => {
     L.marker(boulder.location, {icon: boulderIcon}).bindPopup(`
     <h1>${boulder.name}</h1>
     <div class="row route-list">
-        <table>
+        <table class="table table-striped table-bordered">
         `+
         getBoulders(boulder.routes)
         +`
