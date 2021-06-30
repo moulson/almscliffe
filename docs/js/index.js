@@ -1,6 +1,6 @@
 /*! danmoulson.com v1.0.0 | (c) 2021  | ISC License | git+https://github.com/moulson/portfolio.git */
 /*jshint esversion: 6 */
-
+navigator.serviceWorker.register('js/sw.js');
 var mymap = L.map('mapid',{
     crs: L.CRS.Simple,
     zoom: 2,
@@ -58,6 +58,38 @@ var boulders = [
         id: 5,
         location: [38,49],
         name: "The Flying Arete",
+        routes: [
+            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+        ]
+    },
+    {
+        id: 6,
+        location: [47.5,62],
+        name: "The Virgin",
+        routes: [
+            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+        ]
+    },
+    {
+        id: 7,
+        location: [59,61.5],
+        name: "The Big Roof",
+        routes: [
+            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+        ]
+    },
+    {
+        id: 8,
+        location: [48.5,69],
+        name: "The Keel",
+        routes: [
+            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+        ]
+    },
+    {
+        id: 9,
+        location: [56,70],
+        name: "Wedge Boulder",
         routes: [
             {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
         ]
