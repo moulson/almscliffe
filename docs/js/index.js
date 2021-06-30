@@ -4,7 +4,7 @@
 var mymap = L.map('mapid',{
     crs: L.CRS.Simple,
     zoom: 2,
-    maxZoom: 4,
+    maxZoom: 2,
     zoomControl: false,
     minZoom: 2,
     maxBounds: [[144,144],[0,0]]
