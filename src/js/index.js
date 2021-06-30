@@ -1,5 +1,4 @@
 /*jshint esversion: 6 */
-
 var mymap = L.map('mapid',{
     crs: L.CRS.Simple,
     zoom: 2,
@@ -94,13 +93,93 @@ var boulders = [
         ]
     },
     {
+        id: 10,
+        location: [44,82.5],
+        name: "Ed's Dyno",
+        routes: [
+            {name: "Boulder", grade: "Font 5+", link: "https://youtube.com"}
+        ]
+    },
+    {
         id: 11,
         location: [44,91],
         name: "The Matterhorn",
         routes: [
             {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
         ]
-    }
+    },
+    {
+        id: 12,
+        location: [54,104.5],
+        name: "MK Wall",
+        routes: [
+            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
+        ]
+    },
+    {
+        id: 13,
+        location: [23,115.5],
+        name: "The Wall Boulder",
+        routes: [
+            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
+        ]
+    },
+    {
+        id: 14,
+        location: [43.5,114],
+        name: "Pinnacle Boulder",
+        routes: [
+            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
+        ]
+    },
+    {
+        id: 15,
+        location: [53,112.5],
+        name: "The Egg",
+        routes: [
+            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
+        ]
+    },
+    {
+        id: 16,
+        location: [76,20],
+        name: "Z Climb",
+        routes: [
+            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
+        ]
+    },
+    {
+        id: 17,
+        location: [76.3,34.8],
+        name: "Great Western",
+        routes: [
+            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
+        ]
+    },
+    {
+        id: 18,
+        location: [80,46.3],
+        name: "Zig Zag Direct",
+        routes: [
+            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
+        ]
+    },
+    {
+        id: 19,
+        location: [85.5,54.4],
+        name: "The Rift",
+        routes: [
+            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
+        ]
+    },
+    {
+        id: 20,
+        location: [79.8,69.5],
+        name: "Demon Wall",
+        routes: [
+            {name: "Matterhorn Ridge", grade: "Font 5", link: "https://www.youtube.com/watch?v=ROc-Ca8tYgM"}
+        ]
+    },
 
 ]
 
