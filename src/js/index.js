@@ -106,7 +106,7 @@ var boulders = [
         location: [47.5,62],
         name: "The Virgin",
         routes: [
-            {name: "The Virgin Traverse", grade: "F6c", link: ""},
+            {name: "The Virgin Traverse", grade: "F6c", link: "https://www.youtube.com/watch?v=V-un-JBUwvc"},
             {name: "Identity Crisis", grade: "F8a", link: ""},
             {name: "Cherry Falls", grade: "F8a+", link: ""},
             {name: "Crucis", grade: "F7b", link: ""},
@@ -310,6 +310,7 @@ var boulders = [
             {name: "The Crucifix", grade: "F5", link: "https://youtu.be/L2DC5NAukUw?t=985"},
             {name: "Crucifix Arete", grade: "F6a+", link: ""},
             {name: "Pebble Wall", grade: "F6c+", link: ""},
+            {name: "Honeycomb", grade: "F5+", link: "https://www.youtube.com/watch?v=PHWK1BJ7IPs"},
         ]
     },
 
