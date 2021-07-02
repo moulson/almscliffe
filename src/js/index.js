@@ -44,7 +44,7 @@ var boulders = [
             {name: "Morrell's Wall Left", grade: "F6a", link: ""},
             {name: "Fall In", grade: "F6a", link: ""},
             {name: "Swampy Arete", grade: "F6c+", link: ""},
-            {name: "Morrell's Wall Traverse", grade: "F7a", link: ""},
+            {name: "Morrell's Wall Traverse", grade: "F7a", link: "https://youtu.be/L2DC5NAukUw?t=1025"},
             {name: "Fieldside Traverse", grade: "F7b", link: ""},
             {name: "Slopey Traverse", grade: "F7c", link: ""},
         ]
@@ -128,7 +128,7 @@ var boulders = [
         name: "The Big Roof",
         routes: [
             {name: "Snappy Roof", grade: "F5+", link: "https://youtu.be/L2DC5NAukUw?t=354"},
-            {name: "Underhand", grade: "F7b+", link: ""},
+            {name: "Underhand", grade: "F7b+", link: "https://youtu.be/AenIdoR_kV8?t=130"},
             {name: "Off Campus", grade: "F5", link: ""},
             {name: "Reachy Roof", grade: "F5+", link: "https://youtu.be/L2DC5NAukUw?t=386"}
         ]
@@ -141,7 +141,7 @@ var boulders = [
             {name: "C and A Traverse", grade: "F7a", link: ""},
             {name: "In Limbo", grade: "F6c", link: ""},
             {name: "The Crack", grade: "F6b+", link: "https://youtu.be/L2DC5NAukUw?t=420"},
-            {name: "The Keel", grade: "F7c", link: ""},
+            {name: "The Keel", grade: "F7c", link: "https://youtu.be/AenIdoR_kV8?t=13"},
             {name: "The Bulb", grade: "F7c+", link: ""},
             {name: "Bulbhaul", grade: "F8b+", link: ""},
             {name: "Sloper Patrol", grade: "F6c+", link: ""},
@@ -164,7 +164,7 @@ var boulders = [
         routes: [
             {name: "Charlie Sheen", grade: "Font 5", link: ""},
             {name: "Ed's Dyno", grade: "F6c+", link: ""},
-            {name: "Teflon Traverse", grade: "F6c", link: ""},
+            {name: "Teflon Traverse", grade: "F6c", link: "https://youtu.be/L2DC5NAukUw?t=525"},
             {name: "Scuff", grade: "F5+", link: ""},
         ]
     },
@@ -196,10 +196,10 @@ var boulders = [
         location: [54,104.5],
         name: "MK Wall",
         routes: [
-            {name: "Short Arse", grade: "F6a+", link: ""},
+            {name: "Short Arse", grade: "F6a+", link: "https://youtu.be/L2DC5NAukUw?t=699"},
             {name: "Puncture Repair", grade: "F3+", link: ""},
             {name: "Cracking Yarn", grade: "F4", link: ""},
-            {name: "Pistol Whip", grade: "F7b", link: ""},
+            {name: "Pistol Whip", grade: "F7b", link: "https://youtu.be/AenIdoR_kV8?t=428"},
             {name: "Making Shapes", grade: "F7c+", link: ""},
             {name: "MK Original", grade: "F5", link: ""},
         ]
@@ -210,7 +210,7 @@ var boulders = [
         name: "The Wall Boulder",
         routes: [
             {name: "Bit of a Jerk", grade: "F7b", link: ""},
-            {name: "Que Fastidio", grade: "F6a+", link: ""},
+            {name: "Que Fastidio", grade: "F6a+", link: "https://youtu.be/L2DC5NAukUw?t=585"},
         ]
     },
     {
@@ -222,6 +222,7 @@ var boulders = [
             {name: "JP's Problem", grade: "F6a", link: ""},
             {name: "Askance", grade: "F4+", link: ""},
             {name: "Leverage", grade: "F4+", link: ""},
+            {name: "Leverage Sit", grade: "F6a", link: "https://youtu.be/L2DC5NAukUw?t=616"},
             {name: "Pick Pocket", grade: "F3+", link: ""},
             {name: "The Long Slab", grade: "F5+", link: ""},
         ]
@@ -233,7 +234,8 @@ var boulders = [
         routes: [
             {name: "Matt's Roof", grade: "F7b+", link: ""},
             {name: "Streaky's Traverse", grade: "F7b+", link: ""},
-            {name: "Silver Trout", grade: "F7b", link: ""},
+            {name: "Silver Trout", grade: "F7c", link: "https://youtu.be/-09BJi7zpYA?t=20"},
+            {name: "Silver Trout w/ Block", grade: "F6c+", link: "https://youtu.be/L2DC5NAukUw?t=658"},
             {name: "Pipping Arete", grade: "F6c+", link: ""},
             {name: "Cuticula", grade: "F6c", link: ""},
         ]
@@ -251,7 +253,8 @@ var boulders = [
             {name: "Stubby Arete", grade: "F5", link: ""},
             {name: "Shadow Face", grade: "F4", link: ""},
             {name: "Wall of Horrors Traverse", grade: "F6c+", link: ""},
-            {name: "The Horror", grade: "F7a+", link: ""},
+            {name: "Wall of Horrors (Start))", grade: "F6b", link: "https://youtu.be/L2DC5NAukUw?t=843"},
+            {name: "The Horror", grade: "F7a+", link: "https://youtu.be/AenIdoR_kV8?t=306"},
         ]
     },
     {
@@ -281,6 +284,7 @@ var boulders = [
             {name: "The Nose Direct", grade: "F5", link: ""},
             {name: "Syrett's Roof", grade: "F6c+", link: ""},
             {name: "Bancroft's Roof", grade: "F6b+", link: ""},
+            {name: "Zig Zag Traverse", grade: "F6b+", link: "https://youtu.be/L2DC5NAukUw?t=876"},
         ]
     },
     {
@@ -288,7 +292,7 @@ var boulders = [
         location: [85.5,54.4],
         name: "The Rift",
         routes: [
-            {name: "Si's Arete", grade: "F7a+", link: ""},
+            {name: "Si's Arete", grade: "F7a+", link: "https://youtu.be/Nf6fQiyCrls?t=19"},
         ]
     },
     {
@@ -297,13 +301,13 @@ var boulders = [
         name: "Demon Wall",
         routes: [
             {name: "Stu's Roof Left-Hand", grade: "F7b+", link: ""},
-            {name: "Stu's Roof", grade: "F7c+", link: ""},
-            {name: "Demon Wall Roof", grade: "F7a+", link: ""},
-            {name: "Dolphin Belly Slap", grade: "F7a", link: ""},
+            {name: "Stu's Roof", grade: "F7c+", link: "https://youtu.be/AenIdoR_kV8?t=346"},
+            {name: "Demon Wall Roof", grade: "F7a+", link: "https://youtu.be/AenIdoR_kV8?t=203"},
+            {name: "Dolphin Belly Slap", grade: "F7a", link: "https://youtu.be/G1TN6FaWOIE?t=12"},
             {name: "Exorcist", grade: "F8a", link: ""},
             {name: "The Crucifix Warm Up", grade: "F6a+", link: ""},
-            {name: "Crucifix Traverse", grade: "F7a", link: ""},
-            {name: "The Crucifix", grade: "F5", link: ""},
+            {name: "Crucifix Traverse", grade: "F7a", link: "https://youtu.be/oB7bysSdkK0?t=14"},
+            {name: "The Crucifix", grade: "F5", link: "https://youtu.be/L2DC5NAukUw?t=985"},
             {name: "Crucifix Arete", grade: "F6a+", link: ""},
             {name: "Pebble Wall", grade: "F6c+", link: ""},
         ]
