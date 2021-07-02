@@ -1,10 +1,16 @@
 // On install, cache some stuff
 addEventListener('install', function (event) {
-	event.waitUntil(caches.open('core').then(function (cache) {
-		cache.add(new Request('https://almscliffe.danmoulson.com/index.html'));
-		return;
+	event.waitUntil(
+		caches.open('core').then(function (cache) {
+			return cache.addAll([
+				'/index.html',
+				'/index.js',
+				'/images/almscliffe.jpg'
+			])
 	}));
 });
+
+
 
 // listen for requests
 addEventListener('fetch', function (event) {
