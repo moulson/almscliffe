@@ -12,11 +12,19 @@ var imageUrl = 'images/almscliffe.jpg',
     imageBounds = [[144,0], [0,144]];
 L.imageOverlay(imageUrl, imageBounds).addTo(mymap);
 
-var boulderIcon = L.icon({
-    iconUrl: 'images/circle-solid.svg',
-    iconSize: [24,24],
-    iconAnchor: [12,12],
-    popupAnchor: [12,12]
+const markerSize = 36;
+
+var divIcon = L.divIcon({
+    className: 'boulder', 
+    html: `
+        <svg width="${markerSize}" height="${markerSize}">
+        <circle cx="${markerSize / 2}" cy="${markerSize / 2}" r="${markerSize / 2}" stroke="black" stroke-width="1" fill="yellow" />
+        </svg>
+    `,
+    iconSize: [markerSize,markerSize],
+    iconAnchor: [markerSize / 2, markerSize / 2],
+    popupAnchor: [markerSize / 2, markerSize / 2]
+
 });
 
 var boulders = [
@@ -132,7 +140,7 @@ var boulders = [
         routes: [
             {name: "C and A Traverse", grade: "F7a", link: ""},
             {name: "In Limbo", grade: "F6c", link: ""},
-            {name: "The Crack", grade: "F6b+", link: ""},
+            {name: "The Crack", grade: "F6b+", link: "https://youtu.be/L2DC5NAukUw?t=420"},
             {name: "The Keel", grade: "F7c", link: ""},
             {name: "The Bulb", grade: "F7c+", link: ""},
             {name: "Bulbhaul", grade: "F8b+", link: ""},
@@ -145,7 +153,7 @@ var boulders = [
         name: "Wedge Boulder",
         routes: [
             {name: "Pocket Watch", grade: "F5", link: ""},
-            {name: "Nose Bag", grade: "F6a", link: ""},
+            {name: "Nose Bag", grade: "F6a", link: "https://youtu.be/L2DC5NAukUw?t=485"},
             {name: "Pebble Frog", grade: "F5", link: ""}
         ]
     },
@@ -322,7 +330,7 @@ function getBoulders(boulders){
 }
 
 boulders.forEach(boulder => {
-    L.marker(boulder.location, {icon: boulderIcon}).bindPopup(`
+    L.marker(boulder.location, {icon: divIcon}).bindPopup(`
     <h1>${boulder.name}</h1>
     <div class="row route-list">
         <table class="table table-striped table-bordered">
